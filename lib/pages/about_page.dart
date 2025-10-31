@@ -43,9 +43,10 @@ class AboutPage extends StatelessWidget {
             const Text('Email: geancarlosvalerarz@gmail.com'),
             const SizedBox(height: 4),
             GestureDetector(
-              onTap: () => _launchUrl('https://github.com/tu-usuario'),
+              onTap: () =>
+                  _launchUrl('https://github.com/Warking07/toolbox.git'),
               child: const Text(
-                'GitHub: github.com/tu-usuario',
+                'GitHub: github.com/Warking07',
                 style: TextStyle(
                   color: Colors.blue,
                   decoration: TextDecoration.underline,
